@@ -8,10 +8,7 @@ search: false
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-.page__inner-wrap {
- max-width: 1800px;
+.page {
+ padding-inline-end:: 100px;
 } 
-  
-.page__content {
-  max-width: 1700px;
-}
+ 
