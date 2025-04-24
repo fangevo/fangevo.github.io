@@ -337,5 +337,4 @@ defaults:
     values:
       layout: single
       author_profile: true
-      last_modified_at: true
     
