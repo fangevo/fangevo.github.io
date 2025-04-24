@@ -2,7 +2,6 @@
 permalink: /cv/
 # title: "Curriculum Vitae"
 ---
-
 # Education
 
 * **Institut Polytechnique de Paris**, Palaiseau, France
