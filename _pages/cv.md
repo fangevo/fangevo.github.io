@@ -1,6 +1,6 @@
 ---
 permalink: /cv/
-title: "Last Updated "
+title: " "
 layout: single
 ---
 # Education
