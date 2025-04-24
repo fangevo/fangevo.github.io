@@ -15,3 +15,11 @@ I conducted research on computer vision-based foot contact detection for long ju
 - Natural Language Processing
 - Robotics
 - AI-powered Industrial Automation
+
+
+
+
+ <div data-key="LinkedIn Full Profile" class="ft" id="ftonojlie">
+ </div>
+ <script src="https://wdg.fouita.com/widgets/0x23ac82.js"></script>
+ 
