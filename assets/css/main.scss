@@ -50,3 +50,34 @@ search: false
       grid-template-columns: 1fr; /* 手机上显示一列 */
     }
   }
+
+
+// 导航栏
+.masthead__menu {
+    display: flex;
+    justify-content: space-between; /* 调整为两端对齐，确保 About Me 和导航项分开 */
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.masthead__menu ul {
+  display: flex;
+  padding-left: 150px;
+}
+.masthead__menu ul a {
+  font-weight: bold; /* 加粗字体 */
+}
+
+// 字号
+h1 {
+  font-size: 1.5rem; /* 调整 h1 字号为 2.5rem（约 40px） */
+}
+
+// 选中文字背景
+::selection {
+  background: #D3E0EA; /* 选中背景为浅灰蓝 */
+  color: #1A1A1A; /* 选中文字为深色，确保对比 */
+}
+::-moz-selection {
+  background: #D3E0EA;
+  color: #1A1A1A;
+}
