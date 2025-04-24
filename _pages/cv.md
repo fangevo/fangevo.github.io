@@ -1,6 +1,6 @@
 ---
 permalink: /cv/
-# title: "Curriculum Vitae"
+title: ""
 ---
 # Education
 
