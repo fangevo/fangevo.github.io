@@ -1,6 +1,6 @@
 ---
 permalink: /cv/
-# title: ""
+title: "Last Updated {{ page.last_modified_at | date: '%Y-%m-%d' }} "
 layout: single
 ---
 # Education
