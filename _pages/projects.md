@@ -3,7 +3,6 @@
 layout: single
 permalink: /projects/
 # author_profile: true
-show_title: false
 ---
 # Automated Traffic Monitoring System
 - **Hightlight**: The project uses YOLOv5 for real-time vehicle type detection and counting in north and south directions. It includes a GUI for manually setting vehicle flow thresholds per direction, issuing warnings when exceeded, and automatically adjusting thresholds based on weather (sunny > rainy > snowy).

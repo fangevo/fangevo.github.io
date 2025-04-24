@@ -2,7 +2,6 @@
 permalink: /cv/
 # title: ""
 layout: single
-show_title: false
 ---
 # Education
 
