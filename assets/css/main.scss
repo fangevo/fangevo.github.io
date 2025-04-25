@@ -18,6 +18,7 @@ search: false
     display: grid;
     grid-template-columns: repeat(4, 1fr); /* 四列布局 */
     gap: 20px; /* 照片之间的间距 */
+    row-gap: 50px;
     padding: 20px;
   }
   
@@ -35,7 +36,7 @@ search: false
   .photo-item p {
     margin: 10px 0 0 0; /* 说明文字与图片的间距 */
     font-size: 0.9em;
-    color: #333;
+    color: #ffffff;
   }
   
   @media (max-width: 1024px) { /* 响应式设计：小屏幕时减少列数 */
