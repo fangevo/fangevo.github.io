@@ -7,7 +7,7 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
-
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=PT+Serif:ital,wght@0,400;0,700;1,400&family=VT323:wght@400&family=JetBrains+Mono:wght@400&display=swap');
 .page {
  padding-inline-end: 100px;
 } 
@@ -88,4 +88,76 @@ h1 {
   max-width: 600px !important; /* 缩小宽度（原为 400px） */
   margin: 0 auto !important; /* 居中对齐 */
   margin-top: 60px !important;
+}
+
+// font setting
+body {
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.author__urls-wrapper .p-locality {
+  font-family: 'PT Serif', Georgia, serif; /* 使用 PT Serif，并添加 fallback */
+  font-weight: 400;
+}
+
+a, .page__share a {
+  font-family: 'PT Serif', Georgia, serif; /* 使用 PT Serif，并添加 fallback */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page__meta-readtime, .page__taxonomy, .page__date {
+  font-family: 'PT Serif', Georgia, serif; /* 使用 PT Serif，并添加 fallback */
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page__footer-copyright {
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', Georgia, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.site-title, .masthead__menu ul a { /* 这个选择器 'nav a' 比 'a' 更具体 */
+  font-family: 'VT323', sans-serif; /* 覆盖通用链接的字体 */
+  font-weight: 400; /* 覆盖通用链接的字重 */
+  font-style: normal;
+  font-size: 1.5em;
+}
+
+em, i, .italic {
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: 400;
+  font-style: italic; /* Explicitly set italic */
+}
+
+b, strong, .bold, [style*="font-weight: bold"], [style*="font-weight: 700"] {
+  font-family: 'PT Serif', Georgia, serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+code { 
+  font-family: 'JetBrains Mono', Consolas;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+.site-title {
+  font-weight: 400;
+}
+// footer
+.page__footer-follow .social-icons li:first-child {
+  display: none;
+}
+.page__footer-follow .social-icons a[href="/feed.xml"] {
+  display: none;
 }

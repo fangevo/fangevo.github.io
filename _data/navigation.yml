@@ -8,5 +8,8 @@ main:
     url: /projects/
   - title: "HOBBIES"
     url: /hobbies/
+  - title: "TECH-BLOG"
+    url: /blog/
   - title: "PHOTOS"
     url: /photos/
+  

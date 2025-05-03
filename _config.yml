@@ -144,18 +144,21 @@ author:
 # Site Footer
 footer:
   links:
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   # url:
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-      # url:
-    - label: "Linkedin"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/yangtaofang/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/fangevo?tab=repositories"
+    - label: "Institut Polytechnique de Paris"
+      icon: "fa-solid fa-graduation-cap"
+      url: https://www.ip-paris.fr/en
+    - label: "Telecom Paris"
+      icon: "fa-solid fa-graduation-cap"
+      url: https://www.telecom-paris.fr/en/home
+    - label: "Ecole Polytechnique"
+      icon: "fa-solid fa-graduation-cap"
+      url: "https://www.polytechnique.edu/"
+    - label: "ENSTA Paris"
+      icon: "fa-solid fa-graduation-cap"
+      url: "https://www.ensta-paris.fr/"
+    # - label: "GitHub"
+    #   icon: "fab fa-fw fa-github"
+    #   url: "https://github.com/fangevo?tab=repositories"
     # - label: "GitLab"
     #   icon: "fab fa-fw fa-gitlab"
     #   # url:
